@@ -1,0 +1,11 @@
+adress = "data/Muhtp_Spart.xlsx"
+rate="0.90"
+column_names = ["MANDT","NAME1"]
+index_join_list = None
+indexj_list = ["KAYIT SIRASI"]
+column_join_list = None
+column_join_value=None
+remove_values=None
+repdefault_list=None
+replace_list=None
+rate_list=["0.4","0.6"]

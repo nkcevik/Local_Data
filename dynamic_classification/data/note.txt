@@ -1,0 +1,9 @@
+- Bu program, iki sütünlu herhangi bir data seti için seçilen kelime
+  temsil algoritmasını ve sınıflandırma algoritmasını uygular.
+
+- Daha fazla elemanlı bir dataset için uygulama yapılacaksa bu kısımın 
+  güncellenmesi gerekli.
+
+# Dataset'ten sınıflandırma için verilen ayrılma şekli:
+      X = dataset.iloc[:, 1].values
+      y = dataset.iloc[:, 0].values

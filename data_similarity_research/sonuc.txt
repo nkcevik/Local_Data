@@ -1,0 +1,34 @@
+Müşteri tedarikçi verisinde;
+Toplam veri sayısı: 22466
+Levenshtein Algoritmsına göre toplam grup sayısı: 17796
+Levenshtein Algoritmsına göre benzer olan veri sayısı: 4.670‬ 
+
+Cosine Algoritmasına göre toplam grup sayısı: 18313
+Cosine Algoritmsına göre benzer olan veri sayısı: 4.153‬
+
+Jaccard Algoritmasına göre toplam grup sayısı: 18342
+Jaccard Algoritmsına göre benzer olan veri sayısı: 4.124‬
+
+Müşteri mali alan verisinde;
+Toplam veri sayısı: 7368
+Levenshtein Algoritmsına göre toplam grup sayısı: 6735
+Levenshtein Algoritmsına göre benzer olan veri sayısı: 633
+
+Cosine Algoritmasına göre toplam grup sayısı: 6826
+Cosine Algoritmsına göre benzer olan veri sayısı: 542‬
+
+Jaccard Algoritmasına göre toplam grup sayısı: 6841
+Jaccard Algoritmsına göre benzer olan veri sayısı: 527
+
+
+Malzeme aktive verisinde;
+Toplam veri sayısı: 5331
+Levenshtein Algoritmsına göre toplam grup sayısı: 2912
+Levenshtein Algoritmsına göre benzer olan veri sayısı: 2.419‬ 
+
+Cosine Algoritmasına göre toplam grup sayısı: 4588
+Cosine Algoritmsına göre benzer olan veri sayısı: 743‬
+
+Jaccard Algoritmasına göre toplam grup sayısı: 4678
+Jaccard Algoritmsına göre benzer olan veri sayısı: 653‬
+

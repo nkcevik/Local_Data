@@ -1,0 +1,19 @@
+﻿
+Rusça ve türkçe ifadeler yer almaktadır. 
+
+Sarı renkli GROUP_ID ve GOLDEN RECORD olanlar benzerlik sonucu çıkanlar
+
+Mavi renkli olanlar index olarak alınması gerekenler
+
+Kırmızı olanlar benzerliği çıakartılacak sütunlar
+
+rate="0.90"
+column_names = ["GOLDEN RECORD","GROUP_ID"]
+index_join_list = ['Sistem','Sistem Kodu']
+indexj_list = None
+column_join_list = ['Müşteri ADI','Vergi No']
+column_join_value='yeni_colum'
+remove_values=None
+repdefault_list=None
+replace_list=None
+rate_list=["0.4","0.4","0.2"]

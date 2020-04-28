@@ -1,0 +1,168 @@
+\begin{thebibliography}{20}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Bengio et~al.(2003)Bengio, Ducharme, Vincent and Jauvin}]{ref9}
+\bibinfo{author}{Bengio, Y.}, \bibinfo{author}{Ducharme, R.},
+  \bibinfo{author}{Vincent, P.}, \bibinfo{author}{Jauvin, C.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{A neural probabilistic language model}.
+\newblock \bibinfo{journal}{Journal of machine learning research}
+  \bibinfo{volume}{3}, \bibinfo{pages}{1137--1155}.
+%Type = Article
+\bibitem[{Blei(2012)}]{ref17}
+\bibinfo{author}{Blei, D.M.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Probabilistic topic models}.
+\newblock \bibinfo{journal}{Communications of the ACM} \bibinfo{volume}{55},
+  \bibinfo{pages}{77--84}.
+%Type = Article
+\bibitem[{Blei et~al.(2003)Blei, Ng and Jordan}]{ref5}
+\bibinfo{author}{Blei, D.M.}, \bibinfo{author}{Ng, A.Y.},
+  \bibinfo{author}{Jordan, M.I.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Latent dirichlet allocation}.
+\newblock \bibinfo{journal}{Journal of machine Learning research}
+  \bibinfo{volume}{3}, \bibinfo{pages}{993--1022}.
+%Type = Article
+\bibitem[{Ghosh et~al.(2016)Ghosh, Vinyals, Strope, Roy, Dean and Heck}]{ref13}
+\bibinfo{author}{Ghosh, S.}, \bibinfo{author}{Vinyals, O.},
+  \bibinfo{author}{Strope, B.}, \bibinfo{author}{Roy, S.},
+  \bibinfo{author}{Dean, T.}, \bibinfo{author}{Heck, L.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Contextual lstm (clstm) models for large scale nlp
+  tasks}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1602.06291} .
+%Type = Misc
+\bibitem[{Hinton(1986)}]{ref8}
+\bibinfo{author}{Hinton, G.}, \bibinfo{year}{1986}.
+\newblock \bibinfo{title}{Distributed representations//parallel distributed
+  processing: Explorations in the microstructure of cognition. volume i.
+  foundations/ed. by de rumelhart \& jl mcclelland--cambridge}.
+%Type = Article
+\bibitem[{Jiang et~al.(2018)Jiang, Li, Chen and Cohn}]{ref1}
+\bibinfo{author}{Jiang, B.}, \bibinfo{author}{Li, Z.}, \bibinfo{author}{Chen,
+  H.}, \bibinfo{author}{Cohn, A.G.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Latent topic text representation learning on
+  statistical manifolds}.
+\newblock \bibinfo{journal}{IEEE transactions on neural networks and learning
+  systems} \bibinfo{volume}{29}, \bibinfo{pages}{5643--5654}.
+%Type = Inproceedings
+\bibitem[{Jiang et~al.(2013)Jiang, Leung, Ng and Li}]{ref7}
+\bibinfo{author}{Jiang, D.}, \bibinfo{author}{Leung, K.W.T.},
+  \bibinfo{author}{Ng, W.}, \bibinfo{author}{Li, H.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Beyond click graph: Topic modeling for search engine
+  query log analysis}, in: \bibinfo{booktitle}{International Conference on
+  Database Systems for Advanced Applications},
+  \bibinfo{organization}{Springer}. pp. \bibinfo{pages}{209--223}.
+%Type = Article
+\bibitem[{K{\i}l{\i}n{\c{c}} et~al.(2017)K{\i}l{\i}n{\c{c}}, {\"O}z{\c{c}}ift,
+  Bozyigit, Y{\i}ld{\i}r{\i}m, Y{\"u}calar and Borandag}]{ref18}
+\bibinfo{author}{K{\i}l{\i}n{\c{c}}, D.}, \bibinfo{author}{{\"O}z{\c{c}}ift,
+  A.}, \bibinfo{author}{Bozyigit, F.}, \bibinfo{author}{Y{\i}ld{\i}r{\i}m, P.},
+  \bibinfo{author}{Y{\"u}calar, F.}, \bibinfo{author}{Borandag, E.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Ttc-3600: A new benchmark dataset for turkish text
+  categorization}.
+\newblock \bibinfo{journal}{Journal of Information Science}
+  \bibinfo{volume}{43}, \bibinfo{pages}{174--185}.
+%Type = Article
+\bibitem[{Kim et~al.(2019)Kim, Seo, Cho and Kang}]{ref4}
+\bibinfo{author}{Kim, D.}, \bibinfo{author}{Seo, D.}, \bibinfo{author}{Cho,
+  S.}, \bibinfo{author}{Kang, P.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Multi-co-training for document classification using
+  various document representations: Tf–idf, lda, and doc2vec}.
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{477},
+  \bibinfo{pages}{15 -- 29}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0020025518308028},
+  \DOIprefix\doi{https://doi.org/10.1016/j.ins.2018.10.006}.
+%Type = Inproceedings
+\bibitem[{Le and Mikolov(2014)}]{ref3}
+\bibinfo{author}{Le, Q.}, \bibinfo{author}{Mikolov, T.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Distributed representations of sentences and
+  documents}, in: \bibinfo{booktitle}{International conference on machine
+  learning}, pp. \bibinfo{pages}{1188--1196}.
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2015)Liu, Liu, Chua and Sun}]{ref6}
+\bibinfo{author}{Liu, Y.}, \bibinfo{author}{Liu, Z.}, \bibinfo{author}{Chua,
+  T.S.}, \bibinfo{author}{Sun, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Topical word embeddings}, in:
+  \bibinfo{booktitle}{Twenty-Ninth AAAI Conference on Artificial Intelligence}.
+%Type = Article
+\bibitem[{Mikolov et~al.(2013)Mikolov, Chen, Corrado and Dean}]{ref2}
+\bibinfo{author}{Mikolov, T.}, \bibinfo{author}{Chen, K.},
+  \bibinfo{author}{Corrado, G.}, \bibinfo{author}{Dean, J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Efficient estimation of word representations in
+  vector space}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1301.3781} .
+%Type = Inproceedings
+\bibitem[{Mikolov et~al.(2010)Mikolov, Karafi{\'a}t, Burget, {\v{C}}ernock{\`y}
+  and Khudanpur}]{ref10}
+\bibinfo{author}{Mikolov, T.}, \bibinfo{author}{Karafi{\'a}t, M.},
+  \bibinfo{author}{Burget, L.}, \bibinfo{author}{{\v{C}}ernock{\`y}, J.},
+  \bibinfo{author}{Khudanpur, S.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Recurrent neural network based language model}, in:
+  \bibinfo{booktitle}{Eleventh annual conference of the international speech
+  communication association}.
+%Type = Inproceedings
+\bibitem[{Mikolov and Zweig(2012)}]{ref14}
+\bibinfo{author}{Mikolov, T.}, \bibinfo{author}{Zweig, G.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Context dependent recurrent neural network language
+  model}, in: \bibinfo{booktitle}{2012 IEEE Spoken Language Technology Workshop
+  (SLT)}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{234--239}.
+%Type = Article
+\bibitem[{Nguyen et~al.(2015)Nguyen, Billingsley, Du and Johnson}]{ref15}
+\bibinfo{author}{Nguyen, D.Q.}, \bibinfo{author}{Billingsley, R.},
+  \bibinfo{author}{Du, L.}, \bibinfo{author}{Johnson, M.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Improving topic models with latent feature word
+  representations}.
+\newblock \bibinfo{journal}{Transactions of the Association for Computational
+  Linguistics} \bibinfo{volume}{3}, \bibinfo{pages}{299--313}.
+%Type = Inproceedings
+\bibitem[{Pennington et~al.(2014)Pennington, Socher and Manning}]{ref11}
+\bibinfo{author}{Pennington, J.}, \bibinfo{author}{Socher, R.},
+  \bibinfo{author}{Manning, C.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Glove: Global vectors for word representation}, in:
+  \bibinfo{booktitle}{Proceedings of the 2014 conference on empirical methods
+  in natural language processing (EMNLP)}, pp. \bibinfo{pages}{1532--1543}.
+%Type = Inproceedings
+\bibitem[{Rehurek and Sojka(2010)}]{ref20}
+\bibinfo{author}{Rehurek, R.}, \bibinfo{author}{Sojka, P.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Software framework for topic modelling with large
+  corpora}, in: \bibinfo{booktitle}{In Proceedings of the LREC 2010 Workshop on
+  New Challenges for NLP Frameworks}, \bibinfo{organization}{Citeseer}.
+%Type = Article
+\bibitem[{Saif et~al.(2013)Saif, Fernandez, He and Alani}]{ref19}
+\bibinfo{author}{Saif, H.}, \bibinfo{author}{Fernandez, M.},
+  \bibinfo{author}{He, Y.}, \bibinfo{author}{Alani, H.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Evaluation datasets for twitter sentiment analysis: a
+  survey and a new dataset, the sts-gold} .
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2015)Wang, Liu, Li and Guo}]{ref12}
+\bibinfo{author}{Wang, Q.}, \bibinfo{author}{Liu, R.}, \bibinfo{author}{Li,
+  H.}, \bibinfo{author}{Guo, W.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Topical paragraph vector learning}, in:
+  \bibinfo{booktitle}{2015 11th International Conference on Natural Computation
+  (ICNC)}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{182--187}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2016)Wang, Ma and Zhang}]{ref16}
+\bibinfo{author}{Wang, Z.}, \bibinfo{author}{Ma, L.}, \bibinfo{author}{Zhang,
+  Y.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{A hybrid document feature extraction method using
+  latent dirichlet allocation and word2vec}, in: \bibinfo{booktitle}{2016 IEEE
+  First International Conference on Data Science in Cyberspace (DSC)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{98--103}.
+
+\end{thebibliography}

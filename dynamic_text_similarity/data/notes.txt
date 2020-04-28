@@ -1,0 +1,12 @@
+cikti_all.xlxl = bütün benzerlik algoritmalarına ve seçilen özelliğe göre verilerin sınıflandırılmış hali.
+
+ornek_malzeme_verisi_active - Asıl.xslx = veri kümesinin yedeği.
+cikti_grup.xlxl = benzerlik algoritmasına göre kümelenen verilerin içinden yalnızca benzer olan grupların 
+ayrılmış ve iki renk aralığında renklendirilmiş hali.
+
+KLASÖR:
+
+mlz_active = malzeme aktif verisinin bulunduğu klasör. 
+musteri_mali_alan = musteri mali alan verisinin bulunduğu klasör.
+musteri_tedarikci = musteri tedarikci verisinin bulunduğu klasör.
+eti_data = eti verilerinin bulunduğu klasör.

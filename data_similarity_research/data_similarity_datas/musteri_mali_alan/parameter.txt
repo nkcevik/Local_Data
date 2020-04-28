@@ -1,0 +1,12 @@
+adress = "data/new_sisecam/MUSTERI_MALI_ALAN_KONSOLIDE_BENZERLIK.xlsx"
+rate="0.90"
+column_names = ["MUSTERI_AD","VERGI_NO"]
+index_join_list = ['SYSTEM','MUSTERI_NO']
+indexj_list = None
+column_join_list = None
+column_join_value= None
+remove_values= None
+repdefault_list= None
+replace_list=None
+rate_list=["0.5","0.5"]
+

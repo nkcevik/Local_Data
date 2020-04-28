@@ -1,0 +1,6 @@
+Kelime temsil yöntemleri (geleneksel)(tf-idf, bag of words, one hot encoding vs.).
+https://towardsdatascience.com/natural-language-processing-feature-engineering-using-tf-idf-e8b9d00e7e76
+https://medium.com/datadriveninvestor/k-fold-cross-validation-6b8518070833
+Benzerlik tanımları: 
+https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
+https://medium.com/@adriensieg/text-similarities-da019229c894

@@ -1,0 +1,11 @@
+adress = "data/örnek_malzeme_verisi_active.xlsx"
+rate="0.90"
+column_names = ["TEKILLIK_MERGE","MLZ_UZUN_TANIM_TR","MLZ_KISA_TANIM_TR"]
+index_join_list = ['SYSTEM','MLZNO']
+indexj_list = None
+column_join_list = None
+column_join_value=None
+remove_values=["IPTAL"]
+repdefault_list=["TESTERE","KLAVUZ KOLU"]
+replace_list=["TESTERE2","KLAVUZ KOLU2"]
+rate_list=["0.4","0.4","0.2"]

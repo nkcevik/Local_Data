@@ -1,0 +1,37 @@
+Literatür taramasında ilk olarak geleneksel algoritmalar incelenmiştir. [Buraya rapordaki kaynaklardan vermek daha uygun olur] çalışmalarında benzerlik tespitinde, Levenshtein, Jaccard ve Kosinüs gibi benzerlik algoritmalarının kullanıldığı görülmüştür. Jaccard ve Kosinüs algoritmaları, kimlik numarısı gibi benzersiz ve nümerik öznitelikler karşılaştırılırken tercih edilmiş ve bu algoritmalarda verilerin eşit olup olmama durumuna bakılarak 1 veya 0 değerleri atanmıştır. Bu algoritmaların, nümerik veriler üzerinde karşılaştırma yapılırken daha yüksek doğruluk oranına sahip sonuçlar verdiği gözlemlenmiştir. Levenshtein algoritması ise sözdizimsel özniteliklerde tercih edilmiş ve benzerlik oranına göre [0,1] aralığında bir sonuç geri döndürmüştür. Büyük veri kümeleri, içerisinde farklı türde veriler  bulundurduğu için, farklı algoritmaların beraber kullanımı ile daha verimli sonuçlar elde edilebilmektedir. Örneğin, [NEAR DUPLICATE DETECTION IN RELATIONAL DATABASE] çalışmasında, veriler hem sözdizimsel hem de sayısal veriler içerdiği için, Levenshtein ve Kosinüs benzerlik algoritmaları beraber kullanılmış ve daha doğru sonuçlar elde edilmiştir. 
+
+Veriler üzerinde karşılaştırma veya sınıflandırma işlemi yapılmadan önce, veriler belirli bir formatta temsil edildiğinde, doğruluk oranı daha yüksek sonuçlar vermektedir. Literatürde veri temsilinde, bag of words, tf-idf  gibi geleneksel metin temsil yöntemleri kullanılmıştır. Yapılan çalışmalar detaylı olarak incelendiğinde bu yöntemlerin, daha çok sınıflandırma alanında başarımlarının yüksek olduğu görülmüştür.
+
+Benzerlik ölçütlerini elde etmek için kullanılan geleneksel algoritmaları iki temel başlık altında inceleyebiliriz:
+	1. Metin Benzerliği: Bu algoritmalarda iki metin arasında benzerlik oranı hesaplarken, 
+						 iki metin arasındaki eleman değiştirme, silme ve ekleme işlem sayısına bakarak bir benzerlik oranı bulmaktadır.
+						 Örnek olarak; Levenstein, Hamming Uzaklığı, Jaro Uzaklığı algoritmaları verilebilmektedir.
+
+	2. Vektör Uzay Modelleri: Jaccard, Kosinüs vb. algoritmalarda iki metin arasındaki benzerlik oranı hesaplanırken,
+							  metin verileri vektör uzayında temsil edilmekte ve vektörler arası uzaklık bulunmaktadır.
+							   Örnek olarak; Jaccard, Cosin algoritmaları verilebilmektedir.
+
+
+Yapılan literatür taramasında kullanılan geleneksel benzerlik ölçütleri araştırılmış ve en çok kullanılan üç benzerlik ölçütünün Levenstein, Jaccard ve Kosinüs algoritmaları olduğu görülmüştür.  
+
+Jaccard ve Kosinüs algoritmalarının, kimlik numarısı gibi benzersiz ve nümerik öznitelikler üzerinde karşılaştırma yapılırken daha doğru sonuçlar verdiği gözlemlenmiştir.
+
+Levenshtein algoritmasının ise, sözdizimsel öznitelikler üzerinde karşılaştırma yapılırken daha yüksek doğruluk oranına sahip olduğu görülmüştür.
+
+
+
+Büyük veri kümeleri, içerisinde farklı türde veriler  bulundurduğu için, farklı algoritmaların beraber kullanımı ile daha verimli sonuçlar elde edilebilmektedir.
+
+Örneğin, [1] çalışmasında, veriler hem sözdizimsel hem de sayısal veriler içerdiği için, Levenshtein ve Kosinüs benzerlik algoritmaları beraber kullanılmış ve daha doğru sonuçlar elde edilmiştir. 
+
+Bu çalışmada, [1] numaralı çalışmanın çıktıları örnek alınarak veri seti üzerinde farklı algoritmalar beraber kullanılmış ve çıkan sonuçlar karşılaştırılmıştır.
+
+
+Veriler üzerinde karşılaştırma veya sınıflandırma işlemi yapılmadan önce, veriler belirli bir formatta temsil edildiğinde, doğruluk oranı daha yüksek sonuçlar vermektedir. 
+
+Jaccard ve Kosinüs algoritmalarında verilerin bir vektör uzayında temsil edilmesi gerekmektedir.
+
+Literatürde veri temsilinde, bag of words, tf-idf  gibi geleneksel metin temsil yöntemleri kullanılmıştır. 
+
+Bu çalışmada kapsamında, Jaccard ve Kosinüs algoritmalarında metinler vektör uzayına aktarılırken geleneksel metin temsil yöntemleri tercih edilmiştir.
+

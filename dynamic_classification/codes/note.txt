@@ -1,0 +1,46 @@
+Bu program, iki sütünlu herhangi bir data seti için seçilen kelime
+temsil algoritmasını ve sınıflandırma algoritmasını uygular.
+
+ Geçerli kelime temsil algoritmaları:
+      TF-IDF = tf_idf,
+      Bag of Words = bag_of_words.
+
+ Geçerli sınıflandırma algoritmaları:
+      Naive Bayes = NB, 
+      K en yakın komşu = KNN, 
+      Linear Regression = LR,
+      Random Forest = RF,
+      Decision Tree = DT, 
+      Linear Support Vector Machine = LSVC,
+      Support Vector Machine = SVM, 
+      LightGBM = LGBM.
+
+
+Algoritmanın uygulanışı:
+dataset = pd.read_csv(path)
+wc = Word_Class(siniflarin_ayrilacagi_sutun_adi, kelime_temsil_algoritmasi, siniflandirma_algoritmasi, veri_tabani, k_fold_degeri)
+wc.fit()
+# total confusion matrix
+print(wc.total_df)
+
+
+Örnekler:
+dataset = pd.read_csv(path)
+
+# example1
+wc = Word_Class("category", "bag_of_words", "DT", dataset, 5)
+wc.fit()
+# total confusion matrix
+print(wc.total_df)
+
+# example2
+wc = Word_Class("category", "tf_idf", "NB", dataset, 4)
+wc.fit()
+# total confusion matrix
+print(wc.total_df)
+
+# example3
+wc = Word_Class("category", "tf_idf", "LGBM", dataset, 3)
+wc.fit()
+# total confusion matrix
+print(wc.total_df)
