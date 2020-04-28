@@ -1,0 +1,2 @@
+https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
+https://womaneng.com/one-hot-encoding-nedir-nasil-yapilir/

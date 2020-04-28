@@ -1,0 +1,4 @@
+Kaynaklar:
+https://machinelearningmastery.com/naive-bayes-for-machine-learning/
+https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
+https://machinelearningmastery.com/better-naive-bayes/

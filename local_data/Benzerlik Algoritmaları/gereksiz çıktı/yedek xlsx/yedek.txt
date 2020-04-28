@@ -1,0 +1,59 @@
+"""
+    def clean_dataframe(self):
+        df = self.dataset
+        df[self.grup_column] = pd.Series(np.zeros(len(df)))
+        df[self.score_column] = pd.Series(np.zeros(len(df)))
+
+        df = df[[self.unique_column, self.column, self.grup_column, self.score_column]]        
+
+        list_of_deleted_index = df[df[self.column] == " "].index
+        list_of_deleted_index = list_of_deleted_index.append(df[df[self.column].str.contains('IPTAL', na=True)].index)
+        
+        # Lenght of deleted index 
+        # print(len(list_of_deleted_index))
+        
+        for index in list_of_deleted_index:
+            df = df.drop(index)
+        
+
+        df[self.column] = df[self.column].replace({'=':''}, regex=True)
+        # print(df[self.column].describe())
+        
+        return df    
+
+    def all_clean_dataframe(self):
+        df = self.dataset
+        grup_lev = "GRUP_LEV"
+        grup_cos = "GRUP_COS"
+        grup_jac = "GRUP_JAC"
+
+        score_lev = "SCORE_LEV"
+        score_cos = "SCORE_COS"
+        score_jac = "SCORE_JAC"
+
+        df[grup_lev] = pd.Series(np.zeros(len(df)))
+        df[score_lev] = pd.Series(np.zeros(len(df)))
+
+        df[grup_cos] = pd.Series(np.zeros(len(df)))
+        df[score_cos] = pd.Series(np.zeros(len(df)))
+
+        df[grup_jac] = pd.Series(np.zeros(len(df)))
+        df[score_jac] = pd.Series(np.zeros(len(df)))
+
+        df = df[[self.unique_column, self.column, grup_lev, score_lev, grup_cos, score_cos, grup_jac, score_jac]]        
+
+        list_of_deleted_index = df[df[self.column] == " "].index
+        list_of_deleted_index = list_of_deleted_index.append(df[df[self.column].str.contains('IPTAL', na=True)].index)
+        
+        # Lenght of deleted index 
+        # print(len(list_of_deleted_index))
+        
+        for index in list_of_deleted_index:
+            df = df.drop(index)
+        
+
+        df[self.column] = df[self.column].replace({'=':''}, regex=True)
+        # print(df[self.column].describe())
+        
+        return df 
+"""

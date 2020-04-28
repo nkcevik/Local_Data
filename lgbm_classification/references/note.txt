@@ -1,0 +1,10 @@
+# LightGBM Parameters 
+# in details: https://lightgbm.readthedocs.io/en/latest/Parameters.html
+
+Random forest classifier, lgbm classifier.
+https://medium.com/machine-learning-101/chapter-5-random-forest-classifier-56dc7425c3e1
+https://towardsdatascience.com/understanding-random-forest-58381e0602d2
+https://medium.com/machine-learning-101/chapter-3-decision-trees-theory-e7398adac567
+https://towardsdatascience.com/machine-learning-part-18-boosting-algorithms-gradient-boosting-in-python-ef5ae6965be4
+https://medium.com/machine-learning-101/chapter-5-random-forest-classifier-56dc7425c3e1
+https://towardsdatascience.com/introduction-to-gradient-boosting-on-decision-trees-with-catboost-d511a9ccbd14

@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/fuzzywuzzy-python-library/
+https://www.datacamp.com/community/tutorials/fuzzy-string-python
+https://www.youtube.com/watch?v=DFCtxWLkiFY

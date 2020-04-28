@@ -1,0 +1,5 @@
+Bu dosya içerisinde 3 tane farklı Naive Bayes Sınıfının uygulanışı gösterilmiştir.
+1. GaussianNB : Tahmin edeceğiniz veri veya kolon sürekli (real,ondalıklı vs.) ise
+2. BernoulliNB : Tahmin edeceğiniz veri veya kolon ikili ise ( Evet/Hayır , Sigara içiyor/ İçmiyor vs.)
+3. MultinomialNB : Tahmin edeceğiniz veri veya kolon nominal ise ( Int sayılar )
+Duruma göre bu üç sınıftan birini seçebilirsiniz. Seçilen sınıf modelin başarı durumunu etkiler.

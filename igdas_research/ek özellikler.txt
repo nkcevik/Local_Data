@@ -1,0 +1,9 @@
+1. Memurlara, okullara normal tatil günleri dışında verilen ek tatiller.
+2. Kar tatilleri.
+3. Memurların iş başlangıç ve bitiş saatleri (bazı ay ve yıllarda şehir bazında değişkenlik gösteriyormuş).
+4. Mahalle bazında hava durumu.
+5. Bölgedeki okul ve üniversite dağılımı.
+6. Okulların seminer dönemi düzenleyip, düzenlememesi.
+7. Engellilere sağlanan ek tatiller. 
+   (İstanbulda yaklaşık 100.000 engelli vatandaşımız varsa her birinin günlük 10 metreküp doğal gaz harcaması 
+   	toplamda günlük 1 milyon metreküp doğal gaz harcamasına sebep olur.)

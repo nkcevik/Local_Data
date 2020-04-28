@@ -1,0 +1,34 @@
+Information about the use of meta-model
+
+add_meta(estimator, **kwargs) -> Meta Learner.
+Compatibility method for adding a meta learner to be used for final predictions.
+
+Parameters
+• estimator (instance) – estimator instance.
+• **kwargs (optional) – optional keyword arguments.
+
+Example:
+
+from mlens.ensemble import BlendEnsemble
+from mlens.metrics.metrics import rmse
+from sklearn.datasets import load_boston
+from sklearn.linear_model import Lasso
+from sklearn.svm import SVR
+
+X, y = load_boston(True)
+
+ensemble = BlendEnsemble()
+
+# We can add one or more models as the base model in the ensemble.
+ensemble.add([SVR(), ('can name some or all est', Lasso())]) 
+
+# We can add one meta-model.
+# We can use another estimator model such as SVR, 
+# LinearRegression, LogisticRegression etc.  
+ensemble.add_meta(SVR()) 
+
+ensemble.fit(X, y)
+preds = ensemble.predict(X)
+rmse(y, preds)
+
+output: 7.656098...
