@@ -1,5 +1,5 @@
-# IBSS_Local_Data
-Nurşah Projeler
+# _Local_Data
+ Projeler
 
 1.  avrasya_research: Avrasya projesine benzer çalışma araştırması.
 2.  data_similarity_research: Tübitak projesi için veri benzerlik algoritma araştırması.
@@ -13,7 +13,6 @@ Nurşah Projeler
 10. navie_bayes_classification: Bayes algoritmaları ile sınıflandırma algoritması ile sınıflandırma. 
 11. one_hot_encoding_algorithm:  One hot encoding kelime temsil algoritmasının farklı kütüphaneler ile uygulanması.
 12. super_learner: Super Learner algoritmasının uygulanması ve açıklaması.
-13. tubitak_project_proposal: Tübitak için yapay zeka ile kriptografinin birleştirilmesi fikri.
-14. conferences: igdas ve mercedes çalışmaları için konferans çalışması.
-15. local_data: Ana bilgisayarda kalan eski çalışma verileri.
+13. conferences: igdas ve mercedes çalışmaları için konferans çalışması.
+
 
