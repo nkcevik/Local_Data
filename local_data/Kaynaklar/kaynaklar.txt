@@ -1,5 +1,0 @@
-https://towardsdatascience.com/from-word-embeddings-to-pretrained-language-models-a-new-age-in-nlp-part-2-e9af9a0bdcd9
-https://towardsdatascience.com/from-word-embeddings-to-pretrained-language-models-a-new-age-in-nlp-part-1-7ed0c7f3dfc5
-https://towardsdatascience.com/beyond-word-embeddings-part-2-word-vectors-nlp-modeling-from-bow-to-bert-4ebd4711d0ec
-http://www.bilgisayarkavramlari.com/2008/12/01/ozellik-cikarimi-feature-extraction/
-https://github.com/ibrahimcelenli/unsupervised-learning-document-clustering

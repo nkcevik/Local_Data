@@ -1,3 +1,0 @@
-
-# Benzerlik tanımları: https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
-# https://medium.com/@adriensieg/text-similarities-da019229c894

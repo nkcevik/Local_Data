@@ -1,6 +1,0 @@
-cikti.xlsx = seçilen kelime benzerlik algoritmasına ve özelliğe göre verilen sınıflandırılmış hali.
-cikti_all.xlxl = bütün benzerlik algoritmalarına ve seçilen özelliğe göre verilerin sınıflandırılmış hali.
-ornek_malzeme_verisi_active.xslx = benzerlik için alınan veri kümesi.
-ornek_malzeme_verisi_active - Asıl.xslx = veri kümesinin yedeği.
-cikti_grup.xlxl = benzerlik algoritmasına göre kümelenen verilerin içinden yalnızca benzer olan grupların 
-ayrılmış ve iki renk aralığında renklendirilmiş hali.
