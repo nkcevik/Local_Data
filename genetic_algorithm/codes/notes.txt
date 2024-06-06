@@ -1,1 +1,0 @@
-Genetik algoritmanın rota bulma problemine uygulanma örneği.
